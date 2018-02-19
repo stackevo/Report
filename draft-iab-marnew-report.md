@@ -115,8 +115,14 @@ informative:
     date: September 7, 2015
 
   SPUD:
-    target: https://datatracker.ietf.org/wg/spud/documents/
-    title: Session Protocol for User Datagrams
+    target: https://tools.ietf.org/html/draft-trammell-spud-req-04
+    title: Requirements for the design of a Session Protocol for User Datagrams (SPUD)
+    author:
+      ins: B. Trammell, M. Kuehlewind
+
+  PLUS:
+    target: https://www.ietf.org/proceedings/96/plus.html
+    title: Proceedings of the PLUS BoF at IETF 96, Berlin, July 2016
 
   CONEX:
     target: https://datatracker.ietf.org/wg/conex/documents/
@@ -289,6 +295,7 @@ Attendees were shown that encrypted content is reaching around 50% according to 
 
 Telecommunications networks often contain middleboxes that operators have previously considered to be trusted; but qualifying trust is difficult and should not be assumed. Some interesting use cases exist with these middleboxes; such as anti-spam and malware detection, but these need to be balanced against their ability to open up cracks in the network for attacks such as pervasive monitoring. 
 
+
 When operators increase the number of radio access network cells ("Base Stations"), this can improve the radio access network quality of service , but also adds to radio pollution. This is one example of the balancing act required when devising radio access network architecture.
 
 ## Encryption Deployment Considerations
@@ -423,8 +430,9 @@ Throughout the workshop attendees placed emphasis on the need for better collabo
 
 Since MaRNEW a number of activities have taken place in various seperate working groups or groups external to IETF. The ACCORD BoF was held at IETF95 which brough the workshop discussion to the wider IETF audiences by providing an account of the discussions within the workshop and highlighting key areas to progress on. Key areas to progress and an update on their current status follows:
 
-* The collection of useable metrics and data were requested by a number of MaRNEW attendees, especially for use within the MAP Research Group; this has been difficult to collect due to the closed nature of mobile network operations. 
-* Understanding impacts to Stack Evolution has continued within the IAB's Stack Evolution programme and throughout Transport related working groups such as TSVWG.
+* The collection of useable metrics and data were requested by a number of MaRNEW attendees; this has been difficult to collect due to the closed nature of mobile network operations. 
+* The IAB's Stack Evolution programme has continued discussion and development of guidance on the evolvability of protocols.
+* The Measurement and Analysis of Protocols (MAP) Research Group was chartered before IETF 96, and provides a venue for the discussion of data and research on many of the topics addressed at MaRNEW, including the deployment of encryption and the prevalence of in-network inpairments to protocol evolution.
 * The Mobile Throughput Guidance draft has entered into a testing and data collection phase; although further advancements in transport technologies (noteably QUIC) may have stalled efforts in TCP-related proposals.
 * Attempts on proposals for caching of encrypted content continue albeit with some security flaws which proponents are working on further proposals to fix. Most often these are discussed within the HTTP WG.
 * The PLUS BOF did not result in the formation of a working group, with attendees expressing concern on the privacy issues associated with the data sharing possibilities of the shim layer proposed. 
