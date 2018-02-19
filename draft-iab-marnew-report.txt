@@ -4,7 +4,7 @@
 
 Network Working Group                                          N. Rooney
 Internet-Draft                                                      GSMA
-Expires: March 15, 2018                               September 11, 2017
+Expires: March 16, 2018                               September 12, 2017
 
 
  IAB Workshop on Managing Radio Networks in an Encrypted World (MaRNEW)
@@ -44,7 +44,7 @@ Status of This Memo
    Internet-Drafts are working documents of the Internet Engineering
    Task Force (IETF).  Note that other groups may also distribute
    working documents as Internet-Drafts.  The list of current Internet-
-   Drafts is at http://datatracker.ietf.org/drafts/current/.
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
 
    Internet-Drafts are draft documents valid for a maximum of six months
    and may be updated, replaced, or obsoleted by other documents at any
@@ -53,12 +53,12 @@ Status of This Memo
 
 
 
-Rooney                   Expires March 15, 2018                 [Page 1]
+Rooney                   Expires March 16, 2018                 [Page 1]
 
 Internet-Draft                   marnew                   September 2017
 
 
-   This Internet-Draft will expire on March 15, 2018.
+   This Internet-Draft will expire on March 16, 2018.
 
 Copyright Notice
 
@@ -67,7 +67,7 @@ Copyright Notice
 
    This document is subject to BCP 78 and the IETF Trust's Legal
    Provisions Relating to IETF Documents
-   (http://trustee.ietf.org/license-info) in effect on the date of
+   (https://trustee.ietf.org/license-info) in effect on the date of
    publication of this document.  Please review these documents
    carefully, as they describe your rights and restrictions with respect
    to this document.  Code Components extracted from this document must
@@ -109,7 +109,7 @@ Copyright Notice
 
 
 
-Rooney                   Expires March 15, 2018                 [Page 2]
+Rooney                   Expires March 16, 2018                 [Page 2]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -165,7 +165,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                 [Page 3]
+Rooney                   Expires March 16, 2018                 [Page 3]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -221,7 +221,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                 [Page 4]
+Rooney                   Expires March 16, 2018                 [Page 4]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -277,7 +277,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                 [Page 5]
+Rooney                   Expires March 16, 2018                 [Page 5]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -333,7 +333,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                 [Page 6]
+Rooney                   Expires March 16, 2018                 [Page 6]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -389,7 +389,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                 [Page 7]
+Rooney                   Expires March 16, 2018                 [Page 7]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -445,7 +445,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                 [Page 8]
+Rooney                   Expires March 16, 2018                 [Page 8]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -501,7 +501,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                 [Page 9]
+Rooney                   Expires March 16, 2018                 [Page 9]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -557,7 +557,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                [Page 10]
+Rooney                   Expires March 16, 2018                [Page 10]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -613,7 +613,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                [Page 11]
+Rooney                   Expires March 16, 2018                [Page 11]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -669,7 +669,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                [Page 12]
+Rooney                   Expires March 16, 2018                [Page 12]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -725,7 +725,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                [Page 13]
+Rooney                   Expires March 16, 2018                [Page 13]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -781,7 +781,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                [Page 14]
+Rooney                   Expires March 16, 2018                [Page 14]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -803,10 +803,10 @@ Internet-Draft                   marnew                   September 2017
       or other services for content providers to use for faster and
       smoother content delivery.
 
-   o  AQM [AQM] and ECN [RFC3168] deployments: queuing and congestion
-      management methods have existed for sometime in the form of AQM,
-      ECN and others which can help the transport and Internet layer
-      adapt to congestion faster.
+   o  AQM [RFC7567] and ECN [RFC3168] deployments: queuing and
+      congestion management methods have existed for sometime in the
+      form of AQM, ECN and others which can help the transport and
+      Internet layer adapt to congestion faster.
 
    o  Trust Model or Trust Framework: some solutions in this area (e.g.
       SPUD) have a reliance on trust when content providers or the
@@ -837,7 +837,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                [Page 15]
+Rooney                   Expires March 16, 2018                [Page 15]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -893,7 +893,7 @@ Internet-Draft                   marnew                   September 2017
 
 
 
-Rooney                   Expires March 15, 2018                [Page 16]
+Rooney                   Expires March 16, 2018                [Page 16]
 
 Internet-Draft                   marnew                   September 2017
 
@@ -912,10 +912,84 @@ Internet-Draft                   marnew                   September 2017
 
 9.  Informative References
 
-   [RFC7567]  Baker, F., Ed. and G. Fairhurst, Ed., "IETF
-              Recommendations Regarding Active Queue Management",
-              BCP 197, RFC 7567, DOI 10.17487/RFC7567, July 2015,
-              <https://www.rfc-editor.org/info/rfc7567>.
+   [BLIND_CACHING]
+              Holmberg, M., "An Architecture for Secure Content
+              Delegation using HTTP", n.d.,
+              <https://tools.ietf.org/html/draft-thomson-http-scd-00>.
+
+   [CDNI]     "Content Delivery Networks Interconnection Working Group",
+              n.d., <https://datatracker.ietf.org/wg/cdni/charter/>.
+
+   [CHATHAM_HOUSE_RULE]
+              "Chatham House Rule", n.d.,
+              <https://www.chathamhouse.org/about/chatham-house-rule>.
+
+   [CONEX]    "Congestion Exposure Working Group", n.d.,
+              <https://datatracker.ietf.org/wg/conex/documents/>.
+
+   [FLOWQUEUE]
+              Dumazet, P., "FlowQueue-Codel", March 2014,
+              <https://tools.ietf.org/html/
+              draft-hoeiland-joergensen-aqm-fq-codel-00>.
+
+   [GSMA]     "GSMA Homepage", n.d., <http://gsma.com>.
+
+   [IWF]      "Internet Watch Foundation", n.d.,
+              <https://www.iwf.org.uk/>.
+
+   [LURK]     Ma, D., "TLS/DTLS Content Provider Edge Server Split Use
+              Case", January 2016, <https://tools.ietf.org/html/
+              draft-mglt-lurk-tls-use-cases-00>.
+
+   [MARNEW]   "MaRNEW Workshop IAB Homepage", n.d.,
+              <https://www.iab.org/activities/workshops/marnew/>.
+
+
+
+
+
+
+Rooney                   Expires March 16, 2018                [Page 17]
+
+Internet-Draft                   marnew                   September 2017
+
+
+   [MTG]      Smith, A., "Mobile Throughput Guidance Inband Signaling
+              Protocol", September 2015,
+              <https://www.ietf.org/archive/id/
+              draft-flinck-mobile-throughput-guidance-03.txt>.
+
+   [NETWORK_MANAGEMENT]
+              Smith, K., "Network management of encrypted traffic", May
+              2015, <https://tools.ietf.org/html/
+              draft-smith-encrypted-traffic-management-00>.
+
+   [NOTE_WELL]
+              "IETF Note Well", n.d.,
+              <https://www.ietf.org/about/note-well.html>.
+
+   [PCC]      Schapira, M., "PCC, Re-architecting Congestion Control for
+              Consistent High Performance", May 2015,
+              <http://arxiv.org/pdf/1409.7092v3.pdf>.
+
+   [PCC-QOS]  "Policy and charging control signalling flows and Quality
+              of Service (QoS) parameter mapping", March 2016,
+              <http://www.3gpp.org/DynaReport/29213.htm>.
+
+   [Pew2014]  "Public Perceptions of Privacy and Security in the Post-
+              Snowden Era", November 2014,
+              <http://www.pewinternet.org/2014/11/12/
+              public-privacy-perceptions/>.
+
+   [QUIC]     Swett, J., "QUIC, A UDP-Based Secure and Reliable
+              Transport for HTTP/2", June 2015,
+              <https://tools.ietf.org/html/
+              draft-tsvwg-quic-protocol-00>.
+
+   [RFC3168]  Ramakrishnan, K., Floyd, S., and D. Black, "The Addition
+              of Explicit Congestion Notification (ECN) to IP",
+              RFC 3168, DOI 10.17487/RFC3168, September 2001,
+              <https://www.rfc-editor.org/info/rfc3168>.
 
    [RFC7476]  Pentikousis, K., Ed., Ohlman, B., Corujo, D., Boggia, G.,
               Tyson, G., Davies, E., Molinaro, A., and S. Eum,
@@ -923,103 +997,21 @@ Internet-Draft                   marnew                   September 2017
               RFC 7476, DOI 10.17487/RFC7476, March 2015,
               <https://www.rfc-editor.org/info/rfc7476>.
 
-   [RFC3168]  Ramakrishnan, K., Floyd, S., and D. Black, "The Addition
-              of Explicit Congestion Notification (ECN) to IP",
-              RFC 3168, DOI 10.17487/RFC3168, September 2001,
-              <https://www.rfc-editor.org/info/rfc3168>.
+   [RFC7567]  Baker, F., Ed. and G. Fairhurst, Ed., "IETF
+              Recommendations Regarding Active Queue Management",
+              BCP 197, RFC 7567, DOI 10.17487/RFC7567, July 2015,
+              <https://www.rfc-editor.org/info/rfc7567>.
 
-   [NOTE_WELL]
-              "IETF Note Well", n.d., <https://www.ietf.org/about/note-
-              well.html>.
 
-   [MARNEW]   "MaRNEW Workshop IAB Homepage", n.d.,
-              <https://www.iab.org/activities/workshops/marnew/>.
 
-   [CHATHAM_HOUSE_RULE]
-              "Chatham House Rule", n.d.,
-              <https://www.chathamhouse.org/about/chatham-house-rule>.
 
-   [GSMA]     "GSMA Homepage", n.d., <http://gsma.com>.
+Rooney                   Expires March 16, 2018                [Page 18]
+
+Internet-Draft                   marnew                   September 2017
+
 
    [SDO_3GPP]
               "3GPP Homepage", n.d., <http://www.3gpp.org/>.
-
-
-
-
-
-
-Rooney                   Expires March 15, 2018                [Page 17]
-
-Internet-Draft                   marnew                   September 2017
-
-
-   [PCC-QOS]  "Policy and charging control signalling flows and Quality
-              of Service (QoS) parameter mapping", March 2016,
-              <http://www.3gpp.org/DynaReport/29213.htm>.
-
-   [STATE_BROWSER]
-              Barnes, R., "Some observations of TLS in the web", July
-              2015, <https://www.ietf.org/proceedings/93/slides/slides-
-              93-saag-3.pdf>.
-
-   [STATE_SERVER]
-              Salz, R., "Some observations of TLS in the web", July
-              2015, <https://www.ietf.org/proceedings/93/slides/slides-
-              93-saag-4.pdf>.
-
-   [TCPINC]   "TCP Increased Security Working Group", n.d.,
-              <https://datatracker.ietf.org/wg/tcpinc/charter/>.
-
-   [UBIQUITOUS]
-              Morton, K., "Effect of Ubiquitous Encryption", March 2015,
-              <https://tools.ietf.org/html/draft-mm-wg-effect-encrypt-
-              01>.
-
-   [NETWORK_MANAGEMENT]
-              Smith, K., "Network management of encrypted traffic", May
-              2015, <https://tools.ietf.org/html/draft-smith-encrypted-
-              traffic-management-00>.
-
-   [Pew2014]  "Public Perceptions of Privacy and Security in the Post-
-              Snowden Era", November 2014,
-              <http://www.pewinternet.org/2014/11/12/
-              public-privacy-perceptions/>.
-
-   [MTG]      Smith, A., "Mobile Throughput Guidance Inband Signaling
-              Protocol", September 2015,
-              <https://www.ietf.org/archive/id/draft-flinck-mobile-
-              throughput-guidance-03.txt>.
-
-   [SPUD]     "Session Protocol for User Datagrams", n.d.,
-              <https://datatracker.ietf.org/wg/spud/documents/>.
-
-   [CONEX]    "Congestion Exposure Working Group", n.d.,
-              <https://datatracker.ietf.org/wg/conex/documents/>.
-
-   [FLOWQUEUE]
-              Dumazet, P., "FlowQueue-Codel", March 2014,
-              <https://tools.ietf.org/html/draft-hoeiland-joergensen-
-              aqm-fq-codel-00>.
-
-
-
-
-Rooney                   Expires March 15, 2018                [Page 18]
-
-Internet-Draft                   marnew                   September 2017
-
-
-   [QUIC]     Swett, J., "QUIC, A UDP-Based Secure and Reliable
-              Transport for HTTP/2", June 2015,
-              <https://tools.ietf.org/html/draft-tsvwg-quic-protocol-
-              00>.
-
-   [CDNI]     "Content Delivery Networks Interconnection Working Group",
-              n.d., <https://datatracker.ietf.org/wg/cdni/charter/>.
-
-   [IWF]      "Internet Watch Foundation", n.d.,
-              <https://www.iwf.org.uk/>.
 
    [SPROUT]   Balakrishnan, K., "Stochastic Forecasts Achieve High
               Throughput and Low Delay over Cellular Networks", April
@@ -1027,18 +1019,26 @@ Internet-Draft                   marnew                   September 2017
               <https://www.usenix.org/system/files/conference/nsdi13/
               nsdi13-final113.pdf>.
 
-   [PCC]      Schapira, M., "PCC, Re-architecting Congestion Control for
-              Consistent High Performance", May 2015,
-              <http://arxiv.org/pdf/1409.7092v3.pdf>.
+   [SPUD]     "Session Protocol for User Datagrams", n.d.,
+              <https://datatracker.ietf.org/wg/spud/documents/>.
 
-   [BLIND_CACHING]
-              Holmberg, M., "An Architecture for Secure Content
-              Delegation using HTTP", n.d.,
-              <https://tools.ietf.org/html/draft-thomson-http-scd-00>.
+   [STATE_BROWSER]
+              Barnes, R., "Some observations of TLS in the web", July
+              2015, <https://www.ietf.org/proceedings/93/slides/
+              slides-93-saag-3.pdf>.
 
-   [LURK]     Ma, D., "TLS/DTLS Content Provider Edge Server Split Use
-              Case", January 2016, <https://tools.ietf.org/html/draft-
-              mglt-lurk-tls-use-cases-00>.
+   [STATE_SERVER]
+              Salz, R., "Some observations of TLS in the web", July
+              2015, <https://www.ietf.org/proceedings/93/slides/
+              slides-93-saag-4.pdf>.
+
+   [TCPINC]   "TCP Increased Security Working Group", n.d.,
+              <https://datatracker.ietf.org/wg/tcpinc/charter/>.
+
+   [UBIQUITOUS]
+              Morton, K., "Effect of Ubiquitous Encryption", March 2015,
+              <https://tools.ietf.org/html/
+              draft-mm-wg-effect-encrypt-01>.
 
 Author's Address
 
@@ -1061,4 +1061,4 @@ Author's Address
 
 
 
-Rooney                   Expires March 15, 2018                [Page 19]
+Rooney                   Expires March 16, 2018                [Page 19]
