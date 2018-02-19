@@ -2,10 +2,10 @@
 title: IAB Workshop on Managing Radio Networks in an Encrypted World (MaRNEW) Report
 abbrev: marnew
 docname: draft-iab-marnew-report-01
-date: {DATE}
+date:
 category: 
 
-ipr: 
+ipr: trust200902
 area: 
 workgroup:
 keyword: Workshop
@@ -16,7 +16,7 @@ keyword: Radio
 keyword: Networks
 
 stand_alone: yes
-pi: 
+pi: [toc, sortrefs, symrefs]
 
 
 author:
